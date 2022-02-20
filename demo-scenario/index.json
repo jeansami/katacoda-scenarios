@@ -1,29 +1,20 @@
 {
-  "title": "Demo Scenario",
-  "description": "A Sample Scenario",
-  "difficulty": "Beginner",
-  "time": "2 minutes",
+  "title": "Ubuntu 20.04 Instance",
+  "description": "General purpose environment",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
-    "intro": {
-      "text": "intro.md",
-      "credits": ""
-    },
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-	"client": [
-		{"file": "*", "target": "~/"}
-		]
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+    "hideintro": true,
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
